@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: lightblue;
+}
+#main{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+button{
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.increment{
+    background: red;
+}
+.save-btn{
+    background: green;
+    margin-left: 20px;
+}
+.reset{
+    background: orangered;
+    margin-left: 20px;
+}
+p{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
